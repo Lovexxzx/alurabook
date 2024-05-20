@@ -1,0 +1,123 @@
+.carrossel__titulo-dois {
+    background: var(--branco);
+    color: var(--laranja);
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+
+.card__descriçao-dois {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;   
+    
+}
+
+
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+}
+
+
+.descriçao__titulo-dois {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0.5em 0;
+}
+
+.descriçao__nome{
+    font-weight: 700;
+    color: var(--azul);
+    font-size: 18px;
+}
+
+.card__dois-texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--azul);
+    margin: 0.5em 0;
+}
+
+.card__dois {
+        background: var(--branco);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
+ }
+
+.botoes__item {
+    margin: 0 0.5em
+}
+
+ .botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    .carrossel__titulo-dois {
+        font-size: 26px;
+    }
+
+    .card__dois {
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 1728px) {
+    .container__carrossel {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 1em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+}
